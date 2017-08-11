@@ -1,3 +1,9 @@
 class Friend
-  # TODO: your code goes here!
+ def greeting(something = nil)
+   if(something == nil)
+     "Hello!"
+   else
+   "Hello," + " "+"#{something}"
+   end
+ end
 end
